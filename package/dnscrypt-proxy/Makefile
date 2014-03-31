@@ -27,7 +27,7 @@ define Package/dnscrypt-proxy/Default
   SUBMENU:=IP Addresses and Names
   DEPENDS:=+libsodium
   URL:=https://github.com/opendns/dnscrypt-proxy
-  MAINTAINER:=Black Roland https://forum.openwrt.org/profile.php?id=82621
+  MAINTAINER:=xoraxiom
 endef
 
 define Package/dnscrypt-proxy

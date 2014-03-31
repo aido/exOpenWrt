@@ -1,5 +1,4 @@
 #
-# Copyright (C) 2011-2013 Entware
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -8,12 +7,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libsodium
-PKG_VERSION:=0.4.2
+PKG_VERSION:=0.4.5
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://download.libsodium.org/libsodium/releases/
-PKG_MD5SUM:=9d25f083c957c690c01e0bf4a89cea25
+PKG_MD5SUM:=3a97d2c29ec0133e334036e3f19d0741
 
 PKG_INSTALL:=1
 
@@ -24,7 +23,7 @@ define Package/libsodium
 	CATEGORY:=Libraries
 	TITLE:=library for network communication, encryption, decryption, etc
 	URL:=https://github.com/jedisct1/libsodium
-	MAINTAINER:=Black Roland https://forum.openwrt.org/profile.php?id=82621
+	MAINTAINER:=xoraxiom
 endef
 
 define Package/libsodium/description
